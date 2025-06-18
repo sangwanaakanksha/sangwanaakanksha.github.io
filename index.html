@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+        integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/my_styles.css">
+    <title> Aakanksha's Homepage</title>
+    <style>
+        /* Add some media queries for better mobile rendering */
+        @media (max-width: 768px) {
+            .jumbotron {
+                text-align: center;
+            }
+
+            .jumbotron img {
+                margin-bottom: 20px;
+            }
+
+            .jumbotron p {
+                font-size: 12px;
+            }
+
+            .row {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Custom style for right panel intro text */
+
+        /* Style for image credits */
+        .image-credits {
+            font-size: 0.8em; /* Smaller font for credits */
+            color: #6c757d; /* Muted color */
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Additional spacing for new project/demo sections */
+        .project-item, .demo-item {
+            margin-bottom: 1.5rem; /* Standard spacing */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="jumbotron" style="background-color: #FFFFFF">
+                    <h1>Hello World!</h1>
+                    <img loading="lazy" style="border-radius: 50%; padding: 18px" width="256" src="imgs/as_v1.jpeg"
+                        alt="Profile Image">
+                    <p class="lead">Welcome! I'm Aakanksha</p>
+                    <p class="lead">I turn data, user-insights and research into business strategies. Currently doing that for <a href="http://www.viyamd.com" class="link-green">ViyaMD</a>
+                        supporting clinical AI use cases.</a></p>    
+                    <p class="lead"> I possess optimism of a recent graduate - Master's in <a class="link-purple"
+                            href="https://www.marshall.usc.edu/programs/graduate-programs/specialized-masters/ms-business-analytics">Business Analytics</a> from <a class="link-purple"
+                            href="https://www.marshall.usc.edu">Marshall</a>, Uni of Southern California</a>.</p>
+                    <p class="lead"> Trained in Physics from <a class=""link-purple" 
+                            href = "https://www.iitkgp.ac.in">(IIT)</a> Indian Institute of Technology, Kharagpur</a>.</p>
+                    <p><a class="link-blue" href="mailto:asangwan@marshall.usc.edu">email</a> • <a class="link-blue"
+                            href="https://linkedin.com/sangwanaakanksha">linkedin</a> • <a class="link-blue"
+                            href="https://github.com/sangwanaakanksha">github</a>
+                        • <a class="link-gray" href="pdfs/Resume, Aakanksha.pdf">resume</a>
+                <div class="image-credits text-right">
+                    Display Picture Reference: Hayao Miyazaki's "Castle in the Sky" | <a href="https://www.imdb.com/title/tt0092067/" target="_blank">IMDb Link</a>
+                    </div>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-8 pr-content">
+                <div class="pr-inner">
+                
+
+                    <h4 class="mb-3 mt-4">Projects</h4>
+                    <div class="mb-4 project-item">
+                        <strong>Medicare Part D Analysis & Visualization</strong>
+                        <p>Leveraging CMS data, I've analyzed Medicare Part D prescription drug trends, prescriber and beneficiary behavior at national, sate level. Identifying top-impactful generic drugs and visualizing key performance indicators (KPIs) with year-over-year changes to uncover critical insights into drug utilization and expenditure.</p>
+                        <a href="https://public.tableau.com/shared/TNHWZR9CS?:display_count=n&:origin=viz_share_link" class="link-blue" target="_blank">Dashboard</a>
+                    </div>
+                    <div class="mb-4 project-item">
+                        <strong>Causal Analysis for WFH (work from home) Productivity and Optimization Modeling</strong>
+                        <p>We replicate the analysis using Difference -in- Difference approach to analyze randomized control trial (RCT) data. Added new element of optimized weekyl schedule for a worker depending on team requirements and individual productivity factors. Productized as a worker management extention in current HR tools.</p>
+                        <a href="https://github.com/sangwanaakanksha/causal-inference/blob/main/wfh_rct_causal_analysis.ipynb" class="link-blue" target="_blank">GitHub</a>
+                        
+                    </div>
+                    <div class="mb-4 project-item">
+                        <strong>Finding Users Next Door (Pipeline)</strong>
+                        <p> A primary research on adoption of AI among graduate school students of MS Business Analytics program.</p>
+                    </div>
+
+                    <h4 class="mb-3 mt-4">Demos</h4>
+                        
+                    
+                    <div class="mb-4 demo-item">
+                        <strong> Sales Agent: A Langchain agent that identifies and reaches out to potential leads</strong>
+                        <p>We use web-scraping (SerpAPI), OpenAI LLMs and a scrapy dashboard (Sreamlit) to create this AI system of multiple agents and function calls for a lead reachout autoamtion.</p>
+                        <a href="https://github.com/sangwanaakanksha/sales_development_agent/tree/main" class="link-blue" target="_blank">GitHub</a> |
+                        <a href="https://drive.google.com/file/d/1rc1ILqfxzYHD--tFMoJ4sgYykx7Md6gu/view?usp=sharing" class="link-red" target="_blank">Loom Video</a>
+                    </div>
+
+                    <div class="mb-4 demo-item">
+                        <strong>Gifting Support (Pipeline)</strong>
+                        <p> I love giving gifts but I am pretty bad at finding them. Trying to solve this. The idea hopes to develop a recommendation assistant or tool to do the job of finding thoughtful gifts for users.</p>
+                        </div>
+
+                    <h4 class="mb-3 mt-4">Writings</h4>
+                    <div class="mb-4">
+                        <strong>Which AI agent framework is right for you?</strong>
+                        <p>Working with business and technical teams together, brought architecture choice a recurring question. I write about different types of agentic frameworks and ideas that help narrow down the choices.</p>
+                        <a href="https://medium.com/@s.aakanksha23/youre-probably-using-the-wrong-ai-agent-framework-and-here-s-why-37620d413750" class="link-red" target="_blank">Medium</a>
+                    </div>
+
+                    <div class="mb-4">
+                        <strong>Learnings from Projects - CMS Analytics & Viz Checklist</strong>
+                        <p></p>
+                        </p><a href="https://medium.com/@s.aakanksha23/data-visualization-dashboard-building-a-personal-checklist-55d374e23b9c" class="link-red" target="_blank">Medium</a></p>
+                    </div>
+
+
+                    <div class="footer-note text-center mt-5"><small>Made with 🩶 by AS and Cursor</small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Call to action for pipeline ideas
+        document.addEventListener('DOMContentLoaded', function() {
+            const demosSection = document.querySelector('.pr-inner'); // Adjust selector if needed to target specific section
+            if (demosSection) {
+                const callToAction = document.createElement('div');
+                callToAction.className = 'text-center mt-4 mb-4';
+                callToAction.innerHTML = `
+                    <a href="mailto:asangwan@marshall.usc.edu" class="btn btn-primary btn-sm">Connect</a>
+                `;
+                demosSection.appendChild(callToAction);
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+
+
